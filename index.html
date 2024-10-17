@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font\fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kelas Memasak</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#Layanan">Layanan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kelas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#anak">Anak</a></li>
+                  <li><a class="dropdown-item" href="#dewasa">Dewasa</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#umum">Umum</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontakkami" tabindex="-1" aria-disabled="true">Kontak Kami</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img 1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Selamat Datang di Kelas Memasak</h4>
+              <a href="#Layanan">
+                <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img 2.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Selamat Datang di Kelas Memasak</h4>
+              <a href="#Layanan">
+                <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img 3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Selamat Datang di Kelas Memasak</h4>
+              <a href="#Layanan">
+                <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="container-fluid Layanan pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="Layanan">Layanan</h2>
+            <p>Kelas Memasak adalah kegiatan memasak dan menghias makanan (kue) dengan melibatkan anak-anak maupun dewasa <br> secara langsung selama proses memasak dan menghias makananya sendiri.</p>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fa-solid fa-utensils fa-5x"></i></span>
+                    <h3 class="mt-3">Kelas Memasak</h3>
+                    <p>Membantu anak-anak dan dewasa dalam belajar memasak</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fa-solid fa-clipboard-list fa-5x"></i></span>
+                    <h3 class="mt-3">Pendaftaran</h3>
+                    <p>Jika ingin mengikuti kelas memasak silakan mendaftar</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fa-solid fa-globe fa-5x"></i></span>
+                    <h3 class="mt-3">Umum</h3>
+                    <p>Belajar memasak secara umum untuk semua usia</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="anak">Anak</h2>
+        <p>Kelas Memasak Untuk Anak-anak</p>
+        <h4>Contoh Resep</h4>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 18rem;">
+              <img src="kue 1.webp" class="card-img-top" width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Kue Talam Jagung</h5>
+                <p class="card-text">Kue talam jagung tradisional dua lapis yang lembut dan sedikit kenyal yang terdiri dari lapisan jagung manis dan lapisan kelapa merupakan camilan populer di Asia Tenggara. Resep kue talam jagung manis ini secara alami bebas gluten.</p>
+                <a href="#" class="btn btn-primary">Tap Untuk Melihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 18rem;">
+              <img src="kue 2.webp" class="card-img-top" width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Bolu Kukus Gula Merah</h5>
+                <p class="card-text"> Bolu kukus gula merah merupakan salah satu variasi bolu kukus yang punya cita rasa manis. Rasa legit dari gula merah membuat bolu terasa nikmat.</p>
+                <a href="#" class="btn btn-primary">Tap Untuk Melihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card crop-img" style="width: 18rem;">
+              <img src="kue 3.webp" class="card-img-top" width="200" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Kue Lapis Coklat</h5>
+                <p class="card-text"> Kue ini biasanya terdiri dari dua warna yang berlapis-lapis, ini yang memberi nama kue ini. Kue ini dibuat dari tepung beras, tepung kanji, santan, gula pasir, garam dan pewarna. </p>
+                <a href="#" class="btn btn-primary">Tap Untuk Melihat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+          <h2 class="display-3 text-center" id="kontakkami">Kontak Kami</h2>
+        <p class="text-center">Jika anda mempunyai pertanyaan terkait kelas memasak kami, silakan kirimkan pertanyaan anda kepada kami</p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+            <input class="form-control form-control-lg mb-3" type="text" placeholder="Email">
+            <input class="form-control form-control-lg mb-3" type="text" placeholder="No. Phone">
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+        </div>
+        </div>
+      </div>
+      <div class="container text-center pt-5 pb-5">
+        All Right Reserved & Copy; 2021
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
